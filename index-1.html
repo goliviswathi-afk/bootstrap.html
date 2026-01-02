@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Categories</title>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+      background-color : wheat;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .card {
+    border-radius: 15px;
+    padding: 0;
+    text-align: center;
+    color: white;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.754);
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+    }
+
+    .card img {
+width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 0;
+    border-radius: 15px;
+    }
+
+    .card h3 {
+      margin: 10px 0;
+      position: relative;
+      color: tomato;
+    }
+
+    .clothing { background-color: #0e985fff; }
+    .electronics { background-color: #c13535; }
+    .furniture { background-color: #f38435; }
+    .beauty { background-color: #f188be; }
+    .grocery { background-color: #000000ff; }
+    .mobile { background-color: #5dc7ca; }
+    .books { background-color: #b0bb3b; }
+    .sports { background-color: #1dd4c2; }
+    .toys { background-color: #7144c5; }
+  </style>
+</head>
+
+<body>
+
+  <h1>Grid Layout</h1>
+
+  <div class="grid-container">
+
+    <div class="card">
+      <img src="img_girl.jpg" alt="Sample Photo">
+      <h3>Grid-1</h3>
+    </div>
+
+    <div class=" card">
+      <img src="img_girl.jpg" alt="Sample Photo">
+      <h3>Grid-2</h3>
+    </div>
+
+    <div class=" card">
+      <img src="img_girl.jpg" alt="Sample Photo">
+      <h3>Grid-2</h3>
+    </div>
+
+    <div class=" card">
+      <img src="img_girl.jpg" alt="Sample Photo">
+      <h3>Grid-3</h3>
+    </div>
+
+    <div class=" card">
+      <img src="img_girl.jpg" alt="Sample Photo">
+      <h3>Grid-4</h3>
+    </div>
+
+    <div class=" card">
+      <img src="img_girl.jpg" alt="Sample Photo">
+      <h3>Grid</h3>
+    </div>
+
+    <div class=" card">
+      <img src="img_girl.jpg" alt="Sample Photo">
+      <h3>Grid</h3>
+    </div>
+
+    <div class=" card">
+      <img src="img_girl.jpg" alt="Sample Photo">
+      <h3>Grid</h3>
+    </div>
+
+    <div class=" card">
+      <img src="img_girl.jpg" alt="Sample Photo">
+      <h3>Grid</h3>
+    </div>
+
+  </div>
+
+</body>
+</html>
